@@ -18,8 +18,8 @@ require("channels")
 
 import 'jquery'
 import 'popper.js'
-import 'bootstrap'
 import 'css/application'
+import 'bootstrap'
 
 document.addEventListener("turbolinks:load", () => {
   $('[data-toggle="tooltip"]').tooltip()
